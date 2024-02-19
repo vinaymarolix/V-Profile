@@ -17,9 +17,9 @@
         <commons-dbcp.version>1.4</commons-dbcp.version>
         <jstl.version>1.2</jstl.version>
         <junit.version>4.10</junit.version>
+	<logback.version>1.1.3</logback.version>
 	<sonar.host.url>http://44.201.221.224:9000/</sonar.host.url>
 	<sonar.login>squ_df794b77350eaa43e2294c0b39d22e19a12c9b28</sonar.login>
-        <logback.version>1.1.3</logback.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
