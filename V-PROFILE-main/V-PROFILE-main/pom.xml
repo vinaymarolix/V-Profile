@@ -122,6 +122,21 @@
     		<scope>test</scope>
 		</dependency>
     </dependencies>
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Marolix Releases Nexus Repository</name>
+	      <url>http://44.204.27.125:8081/repository/maven-releases/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Marolix Snapshot Nexus Repository </name>
+	      <url>http://44.204.27.125:8081/repository/maven-snapshots//</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
     <build>
         <plugins>
             <plugin>
