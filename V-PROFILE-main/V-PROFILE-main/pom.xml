@@ -182,7 +182,7 @@
 	<repositories>
     <repository>
       <id>nexus</id>
-      <url>http://44.204.27.125:8081/repository/maven-snapshots//</url>
+      <url>http://44.204.27.125:8081/repository/snapshot/</url>
     </repository>
   </repositories>
 </project>
