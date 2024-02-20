@@ -166,8 +166,8 @@
     </build>
 	<repositories>
     <repository>
-      <id>${NEXUS-GRP-REPO}</id>
-      <url>http://${NEXUSIP}:${NEXUSPORT}/repository/${NEXUS-GRP-REPO}/</url>
+      <id>nexus</id>
+      <url>http://44.204.27.125:8081/repository/maven-snapshots//</url>
     </repository>
   </repositories>
 </project>
